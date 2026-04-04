@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Acme Co — Engineering solutions for a better tomorrow. Replace this description with your own." />
+  <meta name="author" content="Acme Co" />
+
+  <!-- Open Graph (social sharing) -->
+
+  <meta property="og:title"       content="Acme Co — Engineering Solutions" />
+  <meta property="og:description" content="Replace this with your own description for social sharing." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://your-org.github.io/" />
+
+  <title>Acme Co — Engineering Solutions</title>
+
+  <!-- Google Fonts (OFL licence — free for commercial use) -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Site stylesheet -->
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ======================================================
+       NAVIGATION
+       ====================================================== -->
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+```
+  <a href="#hero" class="nav-logo">Acme<span>.</span>Co</a>
+
+  <!-- Mobile toggle -->
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links" id="navLinks" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#people">Team</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="nav-cta"><a href="#contact" class="btn btn-primary">Get in Touch</a></li>
+  </ul>
+
+</div>
+```
+
+  </nav>
+
+  <main>
+
+```
+<!-- ====================================================
+     HERO SECTION
+     ==================================================== -->
+<section id="hero" class="hero">
+  <div class="container hero-inner">
+
+    <span class="label">Welcome to Acme Co</span>
+
+    <h1>
+      Engineering solutions<br />
+      for a <em>better tomorrow</em>
+    </h1>
+
+    <p class="hero-lead">
+      We design, build, and deliver innovative products that help businesses
+      grow faster and operate smarter. Replace this text with your own
+      compelling headline and value proposition.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#products" class="btn btn-primary">Explore Products</a>
+      <a href="#about"    class="btn btn-outline-light">Our Story</a>
+    </div>
+
+  </div>
+
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <span class="scroll-arrow"></span>
+  </div>
+</section>
+
+<!-- ====================================================
+     STATS BAR
+     ==================================================== -->
+<section class="stats-bar" aria-label="Key statistics">
+  <div class="container">
+    <div class="stats-grid">
+
+      <div class="stat-item reveal">
+        <div class="stat-number">12+</div>
+        <div class="stat-label">Years in Business</div>
+      </div>
+
+      <div class="stat-item reveal">
+        <div class="stat-number">340</div>
+        <div class="stat-label">Clients Worldwide</div>
+      </div>
+
+      <div class="stat-item reveal">
+        <div class="stat-number">48</div>
+        <div class="stat-label">Team Members</div>
+      </div>
+
+      <div class="stat-item reveal">
+        <div class="stat-number">98%</div>
+        <div class="stat-label">Customer Satisfaction</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     ABOUT SECTION
+     ==================================================== -->
+<section id="about" class="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Image placeholder — replace src with a real image -->
+      <div class="about-image-block reveal">
+        <div class="about-image-placeholder">
+          <span>Photo / Illustration Here</span>
+        </div>
+        <div class="about-badge">
+          <span class="big">2012</span>
+          <span class="small">Founded</span>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <div class="section-header">
+          <span class="label">Who We Are</span>
+          <h2 id="about-heading">Built on trust.<br />Driven by innovation.</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </div>
+
+        <p>
+          Acme Co was founded in 2012 with a simple mission: to make
+          complex engineering challenges approachable for every business.
+          From our headquarters in [City, Country] we serve clients across
+          [X] industries in [Y] countries.
+        </p>
+
+        <p>
+          Replace this paragraph with your own company story. What problem
+          do you solve? What makes your approach distinctive? Keep it
+          concise, honest, and customer-focused.
+        </p>
+
+        <div class="about-features">
+
+          <div class="about-feature">
+            <div class="feature-icon" aria-hidden="true">⚙</div>
+            <div class="feature-text">
+              <strong>Precision Engineering</strong>
+              <span>ISO-certified processes and quality controls.</span>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <div class="feature-icon" aria-hidden="true">🌍</div>
+            <div class="feature-text">
+              <strong>Global Reach</strong>
+              <span>Offices and partners on four continents.</span>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <div class="feature-icon" aria-hidden="true">🔒</div>
+            <div class="feature-text">
+              <strong>Secure by Design</strong>
+              <span>Security embedded at every stage.</span>
+            </div>
+          </div>
+
+          <div class="about-feature">
+            <div class="feature-icon" aria-hidden="true">📈</div>
+            <div class="feature-text">
+              <strong>Scalable Solutions</strong>
+              <span>Grows alongside your business.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     PRODUCTS / SERVICES SECTION
+     ==================================================== -->
+<section id="products" class="products" aria-labelledby="products-heading">
+  <div class="container">
+
+    <div class="section-header centered reveal">
+      <span class="label">What We Offer</span>
+      <h2 id="products-heading">Our Products &amp; Services</h2>
+      <span class="divider" aria-hidden="true"></span>
+      <p>
+        A short paragraph describing your product range goes here. Keep
+        it to one or two sentences — let the cards do the talking.
+      </p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Card 1 -->
+      <article class="product-card reveal">
+        <div class="product-card-image" role="img" aria-label="Product Alpha illustration">
+          🛠
+        </div>
+        <div class="product-card-body">
+          <div class="product-tag">Hardware</div>
+          <h3>Product Alpha</h3>
+          <p>
+            A concise description of this product or service. What problem
+            does it solve? Who is it for? Aim for two to three sentences.
+          </p>
+          <div class="product-card-footer">
+            <span class="product-price">
+              From £ 499<small>/ unit</small>
+            </span>
+            <a href="#contact" class="link-arrow">Learn more</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="product-card reveal">
+        <div class="product-card-image" role="img" aria-label="Service Beta illustration">
+          📡
+        </div>
+        <div class="product-card-body">
+          <div class="product-tag">Service</div>
+          <h3>Service Beta</h3>
+          <p>
+            Describe what makes this service valuable. Include a key
+            differentiator — speed, accuracy, cost saving, or another
+            measurable benefit customers care about.
+          </p>
+          <div class="product-card-footer">
+            <span class="product-price">
+              From £ 299<small>/ mo</small>
+            </span>
+            <a href="#contact" class="link-arrow">Learn more</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="product-card reveal">
+        <div class="product-card-image" role="img" aria-label="Platform Gamma illustration">
+          ☁
+        </div>
+        <div class="product-card-body">
+          <div class="product-tag">Platform</div>
+          <h3>Platform Gamma</h3>
+          <p>
+            Cloud-based or platform products benefit from highlighting
+            uptime, integrations, and support levels. Replace this
+            placeholder text with your real content.
+          </p>
+          <div class="product-card-footer">
+            <span class="product-price">
+              Custom<small> pricing</small>
+            </span>
+            <a href="#contact" class="link-arrow">Get a quote</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     PEOPLE / TEAM SECTION
+     ==================================================== -->
+<section id="people" class="people" aria-labelledby="people-heading">
+  <div class="container">
+
+    <div class="section-header centered reveal">
+      <span class="label">Our People</span>
+      <h2 id="people-heading">Meet the Team</h2>
+      <span class="divider" aria-hidden="true"></span>
+      <p style="color:rgba(255,255,255,0.55);">
+        The talented individuals who make Acme Co what it is.
+        Replace these placeholders with real photos and biographies.
+      </p>
+    </div>
+
+    <div class="people-grid">
+
+      <div class="person-card reveal">
+        <div class="person-avatar" aria-hidden="true">JS</div>
+        <h4>Jane Smith</h4>
+        <span class="person-role">Chief Executive Officer</span>
+        <p class="person-bio">
+          20 years of experience in [industry]. Passionate about
+          sustainable engineering and team culture.
+        </p>
+        <div class="person-links">
+          <a href="#people">LinkedIn</a>
+          <a href="#people">Email</a>
+        </div>
+      </div>
+
+      <div class="person-card reveal">
+        <div class="person-avatar" aria-hidden="true">RM</div>
+        <h4>Robert Mills</h4>
+        <span class="person-role">Chief Technology Officer</span>
+        <p class="person-bio">
+          Leads our R&amp;D function. Previously at [Company]. Holds
+          patents in [field]. Loves open-source.
+        </p>
+        <div class="person-links">
+          <a href="#people">LinkedIn</a>
+          <a href="#people">GitHub</a>
+        </div>
+      </div>
+
+      <div class="person-card reveal">
+        <div class="person-avatar" aria-hidden="true">AK</div>
+        <h4>Amara Kofi</h4>
+        <span class="person-role">Head of Operations</span>
+        <p class="person-bio">
+          Keeps the business running smoothly across all locations.
+          Specialist in lean manufacturing and supply chain.
+        </p>
+        <div class="person-links">
+          <a href="#people">LinkedIn</a>
+          <a href="#people">Email</a>
+        </div>
+      </div>
+
+      <div class="person-card reveal">
+        <div class="person-avatar" aria-hidden="true">LC</div>
+        <h4>Laura Chen</h4>
+        <span class="person-role">Lead Designer</span>
+        <p class="person-bio">
+          Shapes the look and feel of every product and brand
+          touchpoint. Background in industrial and UX design.
+        </p>
+        <div class="person-links">
+          <a href="#people">Portfolio</a>
+          <a href="#people">LinkedIn</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     NEWS SECTION
+     ==================================================== -->
+<section id="news" class="news" aria-labelledby="news-heading">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <span class="label">Latest Updates</span>
+      <h2 id="news-heading">News &amp; Insights</h2>
+      <span class="divider" aria-hidden="true"></span>
+    </div>
+
+    <div class="news-grid">
+
+      <!-- Article 1 -->
+      <article class="news-card reveal">
+        <div class="news-meta">
+          <span class="news-category">Press Release</span>
+          <time class="news-date" datetime="2025-06-15">15 June 2025</time>
+        </div>
+        <h3>Acme Co Wins Innovation Award at the [Industry] Summit 2025</h3>
+        <p>
+          Replace this placeholder text with a short teaser for your news
+          article. Two or three sentences is ideal — enough to entice
+          readers to click through for more detail.
+        </p>
+        <div class="news-footer">
+          <span class="author">By Jane Smith</span>
+          <a href="#news" class="link-arrow">Read more</a>
+        </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="news-card reveal">
+        <div class="news-meta">
+          <span class="news-category">Product Update</span>
+          <time class="news-date" datetime="2025-05-28">28 May 2025</time>
+        </div>
+        <h3>Introducing Platform Gamma 3.0 — Faster, Smarter, Safer</h3>
+        <p>
+          Our flagship platform receives its biggest update in three years.
+          Replace this text with the real highlights of the release —
+          key features and benefits for existing customers.
+        </p>
+        <div class="news-footer">
+          <span class="author">By Robert Mills</span>
+          <a href="#news" class="link-arrow">Read more</a>
+        </div>
+      </article>
+
+      <!-- Article 3 -->
+      <article class="news-card reveal">
+        <div class="news-meta">
+          <span class="news-category">Insight</span>
+          <time class="news-date" datetime="2025-04-10">10 April 2025</time>
+        </div>
+        <h3>Five Trends Shaping [Your Industry] in the Next Decade</h3>
+        <p>
+          Thought-leadership content builds credibility and drives organic
+          search traffic. Replace this placeholder with a genuine insight
+          piece written by your subject matter experts.
+        </p>
+        <div class="news-footer">
+          <span class="author">By Laura Chen</span>
+          <a href="#news" class="link-arrow">Read more</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ====================================================
+     CONTACT SECTION
+     ==================================================== -->
+<section id="contact" class="contact" aria-labelledby="contact-heading">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <span class="label">Get in Touch</span>
+      <h2 id="contact-heading">We'd love to hear from you</h2>
+      <span class="divider" aria-hidden="true"></span>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Contact details -->
+      <div class="contact-details reveal">
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true">📍</div>
+          <div>
+            <strong>Office Address</strong>
+            <p>
+              123 Business Street<br />
+              [City], [Postcode]<br />
+              [Country]
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true">📞</div>
+          <div>
+            <strong>Telephone</strong>
+            <p>
+              <a href="tel:+441234567890">+44 (0) 1234 567 890</a><br />
+              Mon – Fri, 09:00 – 17:30
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true">✉</div>
+          <div>
+            <strong>Email</strong>
+            <p>
+              General: <a href="mailto:hello@acmeco.example">hello@acmeco.example</a><br />
+              Support: <a href="mailto:support@acmeco.example">support@acmeco.example</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon" aria-hidden="true">🗺</div>
+          <div>
+            <strong>Directions</strong>
+            <p>
+              Five minutes' walk from [Nearest Station].
+              Free parking available on site.
+              <!-- Replace with a real map embed or link -->
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">
+                View on Google Maps →
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contact form -->
+      <div class="contact-form-card reveal">
+        <h3>Send us a message</h3>
+
+        <!--
+          NOTE: This is a static HTML form. To make it functional,
+          connect it to a free service such as:
+          - Formspree (https://formspree.io) — add action="https://formspree.io/f/YOUR_ID"
+          - Netlify Forms — add netlify attribute
+          - EmailJS — use their JavaScript library
+          Replace the action attribute and method below once configured.
+        -->
+        <form action="#" method="POST" id="contactForm" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Jane"
+                required
+                autocomplete="given-name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Smith"
+                required
+                autocomplete="family-name"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="jane@yourcompany.com"
+              required
+              autocomplete="email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company / Organisation</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="Acme Ltd"
+              autocomplete="organization"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject <span aria-hidden="true">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a topic…</option>
+              <option value="sales">Sales &amp; Pricing</option>
+              <option value="support">Technical Support</option>
+              <option value="partnership">Partnership Enquiry</option>
+              <option value="press">Press &amp; Media</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us how we can help you…"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%;">
+            Send Message →
+          </button>
+
+          <p style="font-size:0.75rem;color:var(--color-muted);margin-top:1rem;text-align:center;">
+            We'll respond within one business day. Required fields marked *.
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+```
+
+  </main>
+
+  <!-- ======================================================
+       FOOTER
+       ====================================================== -->
+
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+
+```
+  <div class="footer-grid">
+
+    <!-- Brand column -->
+    <div class="footer-brand">
+      <a href="#hero" class="nav-logo">Acme<span>.</span>Co</a>
+      <p>
+        Engineering solutions for a better tomorrow. Replace this tagline
+        with your own brief brand statement.
+      </p>
+      <nav class="social-links" aria-label="Social media links">
+        <!-- Replace # with real profile URLs -->
+        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+        <a href="#" class="social-link" aria-label="X / Twitter">𝕏</a>
+        <a href="#" class="social-link" aria-label="GitHub">GH</a>
+        <a href="#" class="social-link" aria-label="YouTube">▶</a>
+      </nav>
+    </div>
+
+    <!-- Company links -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul role="list">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#people">Team</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Products links -->
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul role="list">
+        <li><a href="#products">Product Alpha</a></li>
+        <li><a href="#products">Service Beta</a></li>
+        <li><a href="#products">Platform Gamma</a></li>
+        <li><a href="#products">Pricing</a></li>
+        <li><a href="#contact">Request Demo</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal links -->
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul role="list">
+        <!-- Create these pages when ready -->
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+        <li><a href="cookies.html">Cookie Policy</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Footer bottom bar -->
+  <div class="footer-bottom">
+    <p>
+      &copy; <span id="year"></span> Acme Co Ltd. All rights reserved.
+      Registered in [Country] No. 12345678.
+    </p>
+    <a href="#hero" class="back-to-top" aria-label="Back to top">Top</a>
+  </div>
+
+</div>
+```
+
+  </footer>
+
+  <!-- ======================================================
+       JAVASCRIPT (vanilla, no dependencies)
+       ====================================================== -->
+
+  <script>
+    /* --- Copyright year ----------------------------------- */
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* --- Mobile navigation toggle ------------------------- */
+    const toggle   = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    toggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+
+    /* Close nav when a link is tapped on mobile */
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* --- Scroll reveal (IntersectionObserver) ------------- */
+    const revealEls = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target); /* fire only once */
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    /* --- Sticky nav background on scroll ----------------- */
+    const nav = document.querySelector('.site-nav');
+    window.addEventListener('scroll', () => {
+      nav.style.boxShadow = window.scrollY > 10
+        ? '0 4px 24px rgba(0,0,0,0.3)'
+        : 'none';
+    }, { passive: true });
+
+    /* --- Contact form placeholder (no server required) ----
+         Replace this handler with your real form submission
+         logic (Formspree, EmailJS, etc.) when ready.
+    ------------------------------------------------------- */
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      /* Basic HTML5 validation check */
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      const btn = form.querySelector('[type="submit"]');
+      btn.textContent = 'Message sent ✓';
+      btn.disabled = true;
+      btn.style.background = '#2d7d46';
+      btn.style.borderColor = '#2d7d46';
+
+      /* Reset after 4 seconds for demo purposes */
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.disabled = false;
+        btn.style.background = '';
+        btn.style.borderColor = '';
+        form.reset();
+      }, 4000);
+    });
+  </script>
+
+</body>
+</html>
